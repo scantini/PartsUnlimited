@@ -3,22 +3,22 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "WebsiteName": {
-            "value": ""
+            "value": "VS2015LancementPAris"
         },
         "PartsUnlimitedServerName": {
-            "value": ""
+            "value": "partsunlimiteddbserver"
         },
         "PartsUnlimitedHostingPlanName": {
             "value": "PartsBasicFree"
         },
         "CdnStorageAccountName": {
-            "value": ""
+            "value": "cdnaccount"
         },
         "CdnStorageContainerName": {
             "value": "cdn"
         },
         "PartsUnlimitedServerAdminLoginPassword": {
-            "value": ""
+            "value": "P2ssw0rd"
         }
     }
 }
