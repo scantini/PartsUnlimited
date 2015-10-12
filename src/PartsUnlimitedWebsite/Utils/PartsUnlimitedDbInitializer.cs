@@ -24,6 +24,7 @@ namespace PartsUnlimited.Utils
                 new Category { Name = "Oil", Description = "Oil description", ImageUrl = "product_oil_premium-oil.jpg" }
             };
 
+
             context.Categories.AddOrUpdate(x => x.Name, categories.ToArray());
             context.SaveChanges();
             var categoriesMap = categories.ToDictionary(c => c.Name, c => c.CategoryId);
