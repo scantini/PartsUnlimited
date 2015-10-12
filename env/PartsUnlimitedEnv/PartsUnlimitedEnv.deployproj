@@ -9,6 +9,10 @@
       <Configuration>Release</Configuration>
       <Platform>AnyCPU</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="ToAzure|AnyCPU">
+      <Configuration>ToAzure</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>43e031d4-0f62-4adf-97e5-597b380fd757</ProjectGuid>
