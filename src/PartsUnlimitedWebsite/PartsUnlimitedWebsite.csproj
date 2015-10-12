@@ -422,6 +422,8 @@
     <Content Include="Views\Shared\_CommunityList.cshtml" />
     <Content Include="Views\Shared\_OrderCostSummary.cshtml" />
     <Content Include="Views\Home\Recomendations.cshtml" />
+    <Content Include="TemplateRG\WindowsVirtualMachine.json" />
+    <Content Include="TemplateRG\WindowsVirtualMachine.param.dev.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
