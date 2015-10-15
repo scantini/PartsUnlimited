@@ -25,10 +25,7 @@ namespace PartsUnlimited.Controllers
         public async Task<ActionResult> Index(DateTime? start, DateTime? end, string invalidOrderSearch)
         {
             var username = User.Identity.GetUserName();
-            if (username != null)
-            {
-                var username1 = username;
-            }
+
             return View(await _ordersQuery.IndexHelperAsync(username, start, end, invalidOrderSearch, false));
         }
 
