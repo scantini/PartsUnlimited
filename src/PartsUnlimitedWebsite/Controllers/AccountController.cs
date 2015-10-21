@@ -86,6 +86,10 @@ namespace PartsUnlimited.Controllers
             {
                 return View("Error");
             }
+            if (user != null)
+            {
+                var username1 = user;
+            }
 
             // Remove before production
 #if DEMO
