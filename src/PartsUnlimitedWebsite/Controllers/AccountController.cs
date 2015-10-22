@@ -89,6 +89,7 @@ namespace PartsUnlimited.Controllers
             if (user != null)
             {
                 var username1 = user;
+                var username2 = user;
             }
 
             // Remove before production
@@ -470,6 +471,7 @@ namespace PartsUnlimited.Controllers
 
         private ActionResult RedirectToLocal(string returnUrl)
         {
+
             if (Url.IsLocalUrl(returnUrl))
             {
                 return Redirect(returnUrl);
