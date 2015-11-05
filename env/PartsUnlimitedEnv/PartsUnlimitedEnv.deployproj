@@ -45,6 +45,9 @@
     <Content Include="Templates\Website.json" />
     <Content Include="Templates\WebsiteRules.json" />
     <Content Include="Templates\WebsiteWithTwoSlots.json" />
+    <None Include="Scripts\WebDeploy_amd64_en-US.msi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
