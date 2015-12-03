@@ -40,7 +40,7 @@
         }
     },
     "variables": {
-        "location": "North Europe",
+        "location": "West US",
         "imagePublisher": "MicrosoftWindowsServer",
         "imageOffer": "WindowsServer",
         "OSDiskName": "osdiskforwindowssimple",
